@@ -78,7 +78,6 @@ function moviesAverageByCategory(array,genre) {
   const average = Number(moviesAverage(moviesByGenre).toFixed(2));
   return average 
 }
-
 // Exercise 7: Modify the duration of movies to minutes
 function hoursToMinutes(array) {  
   const newArray = [...array].map(({...film}) => { 
